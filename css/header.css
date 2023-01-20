@@ -1,0 +1,37 @@
+header {
+    padding: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#5EA3E0 ;
+}
+
+header nav{
+    display: flex;
+    margin-right: 1.5m;
+}
+
+header h1{
+    color: #ddfbfe;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+header nav a {
+    margin-right: 1.5em;
+}
+
+header nav a img{
+    width: 2em;
+    transition: 0.2s ease-in-out;
+}
+
+header h1:hover{
+    color: #1D73A1;
+}
+
+header nav a img:hover{
+    width: 2.5em;
+}

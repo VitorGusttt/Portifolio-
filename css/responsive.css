@@ -1,0 +1,50 @@
+@media (max-width: 1200px) {
+    main {
+        width: 100%;
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .Conteudo {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 15%;
+    }
+
+    main .Conteudo .text .tecs {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    main .Conteudo .text p {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    main .tecs img {
+        margin-top: 32px;
+    }
+
+    main figure img {
+        width: 100%;
+
+        justify-items: center ;
+    }
+}
+
+@media (max-width: 700px) {
+    header{ 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        text-align: center;
+    }
+
+    main section .tecs-img {
+        width: 100;
+
+        flex-direction: column;
+    }
+}
